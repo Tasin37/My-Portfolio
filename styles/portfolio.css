@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.Mary {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
